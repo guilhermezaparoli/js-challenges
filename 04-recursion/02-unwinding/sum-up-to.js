@@ -3,7 +3,7 @@ function sumUpTo(n) {
         return 1
     }
 
-    console.log(n);
+    
     return n + sumUpTo(n - 1)
 }
 
